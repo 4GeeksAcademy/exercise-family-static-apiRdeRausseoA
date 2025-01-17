@@ -1,7 +1,7 @@
 from random import randint
 
 class FamilyStructure:
-    def init(self, last_name):
+    def __init__(self, last_name):
         self.last_name = last_name
         # Initialize with exactly 3 members as specified
         self._members = [
